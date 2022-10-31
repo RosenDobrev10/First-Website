@@ -1,0 +1,116 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: Verdana, sans-serif;
+  color: #40514e;
+}
+
+h1 {
+  font-size: 4rem;
+  margin-top: 100px;
+  line-height: 2;
+}
+
+h1,
+h2 {
+  color: #66bfbf;
+}
+
+h2,
+h3 {
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3,
+a {
+  color: #11999e;
+}
+
+p {
+  line-height: 2;
+}
+
+hr {
+  border: 6px dotted #eaf6f6;
+  border-bottom: none;
+  width: 5%;
+  margin: 100px auto;
+}
+
+.top {
+  background-color: #e4f9f5;
+  position: relative;
+  padding-top: 100px;
+}
+
+.bio {
+  width: 50%;
+  margin: auto;
+}
+
+.profile img {
+  border-radius: 50%;
+  width: 10%;
+}
+
+.middle-container {
+  margin: 100px 0;
+}
+
+.bottom-container {
+  background-color: #66bfbf;
+  padding: 30px;
+}
+
+.bottom-container a {
+  margin-right: 20px;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+.bottom-container a:hover {
+  color: #eaf6f6;
+}
+
+.bottom-container p {
+  color: #eaf6f6;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.skill-row img {
+  width: 25%;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.contact-me h3 {
+    margin-bottom: 50px;
+}
+
+.btn {
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  text-decoration: none;
+  background-color: #66bfbf;
+  color: #eaf6f6;
+  border-radius: 8px;
+  padding: 8px 16px;
+}
+
+.btn:hover {
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+}
